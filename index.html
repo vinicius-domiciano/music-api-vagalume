@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>API - Vagalume</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="conteudo center">
+            <div id="vinil">
+                <img id="leitor_vinil" src="img/leitor.png">
+                <img id="disco_vinil" src="img/disco.png">
+            </div>
+            <div id="pesquisa">
+                <input type="text" name="txtpesquisa" value="" id="txtPesquisar">
+                <input type="button" name="btnPesquisar" value="Pesquisar" id="btn_pesquisar">
+            </div>
+        </div>
+    </header>
+    <section id="musics_api" class="background">
+        <div class="conteudo center">
+            <h1>Musics API</h1>
+        </div>
+    </section>
+    <section id="autor" class="center aciona">
+        <div class="conteudo center">
+            <div id="img_album" class="center">
+                <img src="img/users.jpg" alt="" id="imagen-artista">
+            </div>
+            <div id="info_autor"></div>
+        </div>
+    </section>
+    <section id="musica_autor" class="background aciona">
+        <div class="fundo">
+            <div class="conteudo center">
+                <div id="menu_musicas">
+                    <div id="todas_musicas" class="menu_item">Todas Musicas</div>
+                    <div id="top_musica" class="menu_item">Mais Ouvidas</div>
+                </div>
+                <div id="caixa_musica">
+                    <div id="musicas">
+                        <div id="header_musicas">
+                            <div id="cabecalho_musica">
+                                    <h6>musicas</h6>
+                            </div>
+                        </div>
+                        <div id="musicas_artista"></div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="letra">
+        <div class="conteudo center">
+            <div id="letra_musica" class="center"></div> 
+        </div>
+    </section>
+    <section id="cantores_relacionados">
+        <div class="conteudo center">
+                <div class="caixa_relacionado"></div>
+                <div class="caixa_relacionado"></div>
+                <div class="caixa_relacionado"></div>
+                <div class="caixa_relacionado"></div>
+                <div class="caixa_relacionado"></div>
+                <div class="caixa_relacionado"></div>
+        </div>
+    </section>
+    <script src="js/musicas.js"></script>
+</body>
+</html>
